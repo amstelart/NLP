@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#111111">
+  <title>НЛП Одесса</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="site-container c-offcanvas-content-wrap site-container--alt-header">
+    <header class="alt-header">
+      <div class="container">
+        <div class="alt-header__inner">
+          <a href="index.html" class="logo header__logo">
+            <img src="img/alt-logo.png" alt="НЛП Одесса">
+          </a>
+          <nav class="main-nav d-none d-xl-block">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">Об НЛП</a>
+              </li>
+              <li class="main-nav__item active">
+                <a href="#" class="main-nav__link">Тренинги</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">Мероприятия</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">Работа с травмой</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">О нас</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">Журнал «Ресурс»</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">Информация</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">Магазин</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="js-offcanvas-trigger d-xl-none" data-offcanvas-trigger="right" href="#right">
+            <svg width="30" height="30" class="icon burger-icon">
+              <use xlink:href="img/sprite.svg#menu"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="intro" style="background-image: url('img/banner_full.jpg');">
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__date"><span>Он-лайн</span> 13–14 февраля 2021 г.</div>
+          <div class="intro__title">НЛП-Практик</div>
+          <div class="intro__caption">Тренинг, с которого начинается путешествие в удивительный и эффективный мир НЛП</div>
+          <div class="intro__action">
+            <button type="button" class="btn btn--main" data-toggle="modal" data-target="#modalCall">Записаться сейчас</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main role="main">
+      <section class="section training-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="section__head">
+                <h2 class="section__title line-title">О тренинге</h2>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div class="training-info__caption">
+                <h4 class="training-info__title">Наш курс «НЛП-Практик» разработан на основе международных стандартов, и его программа принята как эталон многими российскими и зарубежными центрами НЛП.</h4>
+                <p class="training-info__text">Курс «НЛП-Практик» — это адаптированный для современного человека путь к ускоренному выходу на максимум своих возможностей. То, что многие преподносят как «секреты успеха», на нашем курсе «НЛП-Практик» дается в виде практических инструментов, которыми может воспользоваться каждый, прошедший обучение.</p>
+                <p class="training-info__text">Курс включает в себя востребованные темы и ориентирован на практическое применение навыков НЛП в различных областях жизни.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-program">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title line-title">Что в программе тренинга</h2>
+          </div>
+          <div class="program-card">
+            <div class="program-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106px" height="106px">
+                <path fill-rule="evenodd" fill="rgb(237, 237, 237)"
+                  d="M101.079,75.267 C100.048,77.477 97.423,78.442 95.215,77.413 C93.003,76.385 92.041,73.759 93.068,71.547 C95.767,65.729 97.138,59.489 97.138,52.998 C97.138,28.646 77.330,8.832 52.984,8.832 C28.640,8.832 8.831,28.646 8.831,52.998 C8.831,77.351 28.640,97.165 52.984,97.165 C59.534,97.165 65.842,95.765 71.724,93.004 C73.949,91.960 76.561,92.919 77.597,95.125 C78.631,97.335 77.683,99.963 75.475,101.000 C68.408,104.317 60.840,105.999 52.984,105.999 C23.767,105.999 0.000,82.223 0.000,52.998 C0.000,23.776 23.767,-0.001 52.984,-0.001 C82.202,-0.001 105.969,23.776 105.969,52.998 C105.969,60.783 104.322,68.274 101.079,75.267 ZM52.984,79.394 C55.546,79.394 58.077,79.028 60.513,78.303 C62.863,77.594 65.308,78.938 66.002,81.271 C66.700,83.611 65.368,86.067 63.031,86.766 C59.780,87.735 56.400,88.228 52.984,88.228 C33.650,88.228 17.920,72.494 17.920,53.156 C17.920,33.645 33.710,17.772 53.123,17.772 C72.379,17.772 88.049,33.645 88.049,53.156 C88.049,56.179 87.660,59.182 86.897,62.088 C86.281,64.447 83.857,65.851 81.508,65.236 C79.149,64.616 77.739,62.200 78.360,59.841 C78.929,57.669 79.218,55.421 79.218,53.156 C79.218,38.515 67.511,26.603 53.123,26.603 C38.583,26.603 26.751,38.515 26.751,53.156 C26.751,67.622 38.518,79.394 52.984,79.394 ZM52.984,70.655 C43.252,70.655 35.335,62.735 35.335,52.998 C35.335,43.264 43.252,35.345 52.984,35.345 C62.716,35.345 70.633,43.264 70.633,52.998 C70.633,56.266 69.725,59.319 68.173,61.947 L90.036,83.815 L101.416,83.815 C103.856,83.815 105.831,85.793 105.831,88.233 C105.831,90.670 103.856,92.649 101.416,92.649 L92.623,92.649 L92.623,101.444 C92.623,103.884 90.649,105.860 88.208,105.860 C85.768,105.860 83.792,103.884 83.792,101.444 L83.792,90.060 L61.930,68.193 C59.303,69.747 56.251,70.655 52.984,70.655 ZM61.802,52.998 C61.802,48.136 57.848,44.179 52.984,44.179 C48.120,44.179 44.166,48.136 44.166,52.998 C44.166,57.863 48.120,61.820 52.984,61.820 C53.770,61.820 54.528,61.707 55.252,61.514 L54.265,60.526 C52.540,58.802 52.540,56.004 54.265,54.281 C55.990,52.554 58.784,52.554 60.509,54.281 L61.496,55.268 C61.689,54.543 61.802,53.784 61.802,52.998 Z" />
+              </svg>
+            </div>
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="program-card__head">
+                  <div class="program-card__module">Модуль 1</div>
+                  <div class="program-card__title">«Знакомство с НЛП и кузница личного потенциала» (механика эффективного целеполагания в НЛП)</div>
+                  <div class="program-card__caption">Лучшая стратегия начала пути — это не только определение, куда и зачем идти, но и понимание того, что тебя там встретит.</div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="program-card__body">
+                  <div class="program-card__list-title">Темы модуля:</div>
+                  <ul class="program-card__list">
+                    <li>Спецификация цели.</li>
+                    <li>Стратегия работы с целью.</li>
+                    <li>Модель T.O.T.E.</li>
+                    <li>Новый код НЛП.</li>
+                    <li>Стратегия творчества Уолта Диснея</li>
+                    <li>Развитие стратегического мышления.</li>
+                    <li>Использование высокопродуктивных состояний.</li>
+                    <li>Работа с мечтами и креативное мышление.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="program-card">
+            <div class="program-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106px" height="115px">
+                <path fill-rule="evenodd" fill="rgb(237, 237, 237)"
+                  d="M104.185,57.928 C104.926,61.437 105.946,69.181 102.364,75.485 C100.947,77.967 98.958,79.954 96.484,81.375 C97.169,86.003 95.943,91.060 92.868,96.043 C86.309,106.672 72.816,114.998 62.153,114.998 C58.794,114.998 55.930,113.729 53.772,111.652 C51.412,113.747 48.276,114.998 44.729,114.998 C33.230,114.998 19.026,106.417 13.072,95.867 C10.812,91.872 9.950,87.887 10.495,84.245 C5.925,81.622 2.817,77.670 1.564,72.796 C0.194,67.457 1.299,61.456 4.374,56.753 C1.317,47.751 3.269,37.062 10.011,26.293 C18.937,12.042 34.834,-0.001 44.729,-0.001 C48.424,-0.001 51.111,0.922 53.076,2.404 C54.971,0.909 57.821,-0.001 62.153,-0.001 C72.584,-0.001 89.868,12.974 99.144,27.767 C105.964,38.643 107.688,49.028 104.185,57.928 ZM49.388,19.165 C49.388,11.527 47.365,9.583 44.729,9.583 C39.562,9.583 26.298,18.284 18.089,31.396 C14.938,36.431 11.842,43.306 12.609,50.054 C15.225,48.893 18.485,47.916 22.068,47.916 C32.620,47.916 37.745,56.492 38.980,61.027 C39.673,63.578 38.179,66.214 35.635,66.912 C35.215,67.028 34.791,67.084 34.372,67.084 C32.289,67.084 30.379,65.701 29.788,63.595 C29.592,62.940 27.803,57.501 22.068,57.501 C18.576,57.501 15.299,59.286 13.618,60.379 C13.526,60.502 13.437,60.628 13.332,60.743 C10.994,63.297 9.978,67.178 10.807,70.405 C11.609,73.543 13.999,75.797 17.903,77.111 C19.277,77.568 20.363,78.630 20.866,79.992 C21.369,81.351 21.229,82.867 20.488,84.112 C19.179,86.312 20.246,89.148 21.369,91.143 C25.664,98.745 36.580,105.417 44.729,105.417 C47.095,105.417 49.388,103.014 49.388,100.624 L49.388,19.165 ZM91.070,32.872 C82.735,19.585 67.780,9.583 62.153,9.583 C59.539,9.583 58.230,9.583 58.230,17.221 L58.230,101.419 C58.230,103.848 59.772,105.417 62.153,105.417 C69.453,105.417 80.019,98.678 84.757,90.996 C86.462,88.235 88.131,84.208 86.402,80.715 C85.759,79.417 85.736,77.895 86.341,76.579 C86.947,75.262 88.111,74.289 89.514,73.937 C91.694,73.389 93.144,72.368 94.075,70.729 C94.665,69.693 95.006,68.474 95.188,67.213 C90.484,69.725 83.314,71.875 72.537,71.875 C69.901,71.875 67.767,69.729 67.767,67.082 C67.767,64.437 69.901,62.291 72.537,62.291 C89.831,62.291 94.443,56.035 94.891,55.358 C98.536,47.628 94.828,38.869 91.070,32.872 ZM86.849,52.707 C70.394,52.707 62.996,41.499 62.996,33.541 C62.996,30.896 65.130,28.749 67.767,28.749 C70.403,28.749 72.537,30.896 72.537,33.541 C72.537,35.564 74.964,43.125 86.849,43.125 C89.486,43.125 91.620,45.268 91.620,47.916 C91.620,50.563 89.486,52.707 86.849,52.707 ZM77.308,76.666 C79.945,76.666 82.078,78.811 82.078,81.458 C82.078,84.104 79.945,86.249 77.308,86.249 C72.593,86.249 72.537,90.845 72.537,91.041 C72.537,93.685 70.403,95.832 67.767,95.832 C65.130,95.832 62.996,93.685 62.996,91.041 C62.996,85.484 66.882,76.666 77.308,76.666 ZM39.148,95.832 C36.510,95.832 34.377,93.685 34.377,91.041 C34.377,86.304 29.801,86.249 29.606,86.249 C26.969,86.249 24.835,84.104 24.835,81.458 C24.835,78.811 26.969,76.666 29.606,76.666 C35.140,76.666 43.918,80.569 43.918,91.041 C43.918,93.685 41.784,95.832 39.148,95.832 ZM29.606,43.125 C26.969,43.125 24.835,40.978 24.835,38.331 C24.835,35.687 26.969,33.541 29.606,33.541 C34.321,33.541 34.377,28.946 34.377,28.749 C34.377,26.102 36.510,23.958 39.148,23.958 C41.784,23.958 43.918,26.102 43.918,28.749 C43.918,34.306 40.032,43.125 29.606,43.125 Z" />
+              </svg>
+            </div>
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="program-card__head">
+                  <div class="program-card__module">Модуль 2</div>
+                  <div class="program-card__title">«Рамки ролей, убеждений и мышления» (структура мышления)</div>
+                  <div class="program-card__caption">Фреймы мышления — это те рамки, в которых мы мыслим. И важно с ними познакомиться, чтобы их изменить.</div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="program-card__body">
+                  <div class="program-card__list-title">Темы модуля:</div>
+                  <ul class="program-card__list">
+                    <li>Стили мышления.</li>
+                    <li>Модель "Пирамида логических уровней".</li>
+                    <li>Техника "Интеграция логических уровней".</li>
+                    <li>Рефрейминг.</li>
+                    <li>Базовые пресуппозиции НЛП.</li>
+                    <li>Техника "Ромашка".</li>
+                    <li>Ключевые принципы НЛП.</li>
+                    <li>Приемы для управления личным мировоззрением.</li>
+                    <li>Стратегия управления личной мотивацией.</li>
+                    <li>Приемы вербального убеждения.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="program-card">
+            <div class="program-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105px" height="105px">
+                <path fill-rule="evenodd" fill="rgb(237, 237, 237)"
+                  d="M70.018,105.000 C64.606,105.000 59.344,103.282 54.381,99.899 C52.386,98.539 51.869,95.818 53.232,93.817 C54.594,91.818 57.311,91.315 59.310,92.669 C62.795,95.044 66.396,96.248 70.018,96.248 C84.531,96.248 96.221,77.347 96.221,61.698 L96.221,30.421 C93.509,28.389 87.064,24.178 78.265,22.408 C75.899,21.929 74.366,19.627 74.840,17.256 C75.318,14.883 77.616,13.338 79.991,13.829 C94.235,16.695 103.175,24.763 103.547,25.103 C104.452,25.932 104.969,27.105 104.969,28.329 L104.969,61.698 C104.969,82.137 90.020,105.000 70.018,105.000 ZM82.677,43.560 C82.682,43.560 82.823,43.613 83.169,43.613 C83.361,43.630 83.126,43.861 83.070,44.019 L91.848,43.750 C91.848,48.821 88.277,52.362 83.169,52.362 C77.894,52.362 74.353,48.900 74.353,43.750 L82.985,43.750 C82.900,43.699 82.776,43.594 82.677,43.560 ZM87.436,73.784 C87.606,75.037 87.227,76.300 86.393,77.250 C85.565,78.202 84.365,78.748 83.101,78.748 L74.353,78.748 C71.935,78.748 69.979,76.791 69.979,74.374 C69.979,73.084 70.538,71.926 71.423,71.122 C71.316,70.670 71.278,70.187 71.320,69.692 C71.547,67.287 73.690,65.505 76.082,65.740 C86.176,66.680 87.333,73.058 87.436,73.784 ZM34.989,92.166 C15.282,92.166 -0.000,68.887 -0.000,48.862 L-0.000,15.495 C-0.000,14.264 0.516,13.090 1.426,12.260 C1.973,11.762 15.098,-0.001 34.989,-0.001 C54.876,-0.001 68.002,11.762 68.553,12.260 C69.462,13.090 69.979,14.264 69.979,15.495 L69.979,48.862 C69.979,69.303 55.017,92.166 34.989,92.166 ZM61.231,17.593 C57.721,14.975 48.000,8.750 34.989,8.750 C21.877,8.750 12.237,14.956 8.747,17.581 L8.747,48.862 C8.747,64.514 20.454,83.414 34.989,83.414 C49.524,83.414 61.231,64.514 61.231,48.862 L61.231,17.593 ZM37.621,69.878 C37.292,69.956 36.946,70.000 36.591,70.000 L33.383,70.000 C33.029,70.000 32.687,69.956 32.358,69.878 C23.316,69.017 20.463,63.843 20.143,63.206 C19.464,61.851 19.536,60.242 20.335,58.951 C21.133,57.660 22.539,56.874 24.055,56.874 L45.924,56.874 C47.440,56.874 48.845,57.660 49.644,58.951 C50.443,60.242 50.515,61.851 49.836,63.206 C49.516,63.843 46.659,69.017 37.621,69.878 ZM48.602,43.733 C48.598,43.733 48.457,43.682 48.111,43.682 C47.919,43.664 48.153,43.434 48.209,43.276 L39.432,43.543 C39.432,38.472 43.002,34.931 48.111,34.931 C53.386,34.931 56.926,38.391 56.926,43.543 L48.294,43.543 C48.380,43.594 48.503,43.699 48.602,43.733 ZM22.291,43.733 C22.287,43.733 22.146,43.682 21.800,43.682 C21.608,43.664 21.842,43.434 21.898,43.276 L13.121,43.543 C13.121,38.472 16.692,34.931 21.800,34.931 C27.075,34.931 30.616,38.391 30.616,43.543 L21.984,43.543 C22.069,43.594 22.193,43.699 22.291,43.733 Z" />
+              </svg>
+            </div>
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="program-card__head">
+                  <div class="program-card__module">Модуль 3</div>
+                  <div class="program-card__title">«Матрица эмоционального интеллекта» (связь эмоций и мышления)</div>
+                  <div class="program-card__caption">Как заменить чувства и эмоции другого, осознавая при этом свои?</div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="program-card__body">
+                  <div class="program-card__list-title">Темы модуля:</div>
+                  <ul class="program-card__list">
+                    <li>Ассоциация/диссоциация.</li>
+                    <li>Якоря. Техника "Коллапс Якорей".</li>
+                    <li>Субмодальности сенсорных репрезентативных систем.</li>
+                    <li>Упражнение "Ресурс-нересурс".</li>
+                    <li>Эмоции. Техника "Калибровка 6 состояний".</li>
+                    <li>Техника "Изменение личностных историй".</li>
+                    <li>Метасообщения.</li>
+                    <li>Управление своими эмоциями.</li>
+                    <li>Умение считывать эмоции собеседника.</li>
+                    <li>Переключение отрицательных эмоций (неуверенность, стеснение, лень и др.).</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-target">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title line-title">Этот тренинг для тех, кто...</h2>
+          </div>
+          <div class="row target-card-row">
+            <div class="col-sm-6 col-md-4">
+              <div class="target-card">
+                <div class="target-card__num">~<span>01</span>~</div>
+                <div class="target-card__title">Давно подозревает,</div>
+                <div class="target-card__caption">что может и достоин гораздо большего в жизни</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="target-card">
+                <div class="target-card__num">~<span>02</span>~</div>
+                <div class="target-card__title">Готов работать</div>
+                <div class="target-card__caption">над своими реакциями, тренировать себя и свой ум, чтобы улучшить жизнь во многих контекстах</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="target-card">
+                <div class="target-card__num">~<span>03</span>~</div>
+                <div class="target-card__title">Готов стартануть</div>
+                <div class="target-card__caption">к новым ярким результатам!</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="target-card">
+                <div class="target-card__num">~<span>04</span>~</div>
+                <div class="target-card__title">Хранит в сердце яркие амбиции</div>
+                <div class="target-card__caption">и смелые мечты, но боится изменений</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="target-card">
+                <div class="target-card__num">~<span>05</span>~</div>
+                <div class="target-card__title">Хочет «зарядиться» новой энергией,</div>
+                <div class="target-card__caption">вдохновением и ощутить прилив новых сил для своей новой жизни!</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="target-card">
+                <div class="target-card__num">~<span>06</span>~</div>
+                <div class="target-card__title">Испытывает сильное желание</div>
+                <div class="target-card__caption">сдвинуться с «мертвой точки» в каком-то вопросе в своей жизни</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-result">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title line-title">Что вы получите в результате</h2>
+          </div>
+          <div class="row result-card-row">
+            <div class="col-lg-6">
+              <a href="#" class="result-card">
+                <svg width="32" height="32" class="icon result-card__icon">
+                  <use xlink:href="img/sprite.svg#labyrinth-1"></use>
+                </svg>
+                <div class="result-card__title">Значительно измените свое мышление</div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="result-card">
+                <svg width="32" height="32" class="icon result-card__icon">
+                  <use xlink:href="img/sprite.svg#trophy-3"></use>
+                </svg>
+                <div class="result-card__title">Выйдете на новый уровень самореализации и доходов</div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="result-card">
+                <svg width="32" height="32" class="icon result-card__icon">
+                  <use xlink:href="img/sprite.svg#people"></use>
+                </svg>
+                <div class="result-card__title">Улучшите своё окружение и отношения с людьми</div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="result-card">
+                <svg width="32" height="32" class="icon result-card__icon">
+                  <use xlink:href="img/sprite.svg#banknote-coins"></use>
+                </svg>
+                <div class="result-card__title">Перестанете терять деньги, отношения, возможности</div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="result-card">
+                <svg width="32" height="28" class="icon result-card__icon">
+                  <use xlink:href="img/sprite.svg#heart"></use>
+                </svg>
+                <div class="result-card__title">Научитесь испытывать гораздо больше счастья и удовольствия от жизни</div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="result-card">
+                <svg width="32" height="32" class="icon result-card__icon">
+                  <use xlink:href="img/sprite.svg#alien"></use>
+                </svg>
+                <div class="result-card__title">Справитесь с деструктивными внутренними программами</div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="result-card">
+                <svg width="32" height="32" class="icon result-card__icon">
+                  <use xlink:href="img/sprite.svg#check-circle-2"></use>
+                </svg>
+                <div class="result-card__title">Начнете видеть гораздо больше возможностей и получать лучшие результаты</div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="result-card">
+                <svg width="32" height="32" class="icon result-card__icon">
+                  <use xlink:href="img/sprite.svg#check-circle-2"></use>
+                </svg>
+                <div class="result-card__title">Включите в себе состояние драйва и «запустите» свой внутренний мотор</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-how">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title line-title">Как проходит обучение</h2>
+          </div>
+          <div class="how-list row">
+            <div class="how-list__item col-lg-3 col-md-6">
+              <div class="how-list__title">Заявка</div>
+              <div class="how-list__caption">Вы оставляете заявку на сайте</div>
+              <div class="how-list__icon"></div>
+            </div>
+            <div class="how-list__item col-lg-3 col-md-6">
+              <div class="how-list__title">Приглашение</div>
+              <div class="how-list__caption">В день мероприятия получаете ссылку на Zoom-чат</div>
+              <div class="how-list__icon"></div>
+            </div>
+            <div class="how-list__item col-lg-3 col-md-6">
+              <div class="how-list__title">Задание</div>
+              <div class="how-list__caption">По окончанию мероприятия получаете домашнее задание</div>
+              <div class="how-list__icon"></div>
+            </div>
+            <div class="how-list__item col-lg-3 col-md-6">
+              <div class="how-list__title">Обратная связь</div>
+              <div class="how-list__caption">Отправляете домашнее задание нам на почту</div>
+              <div class="how-list__icon"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-about">
+        <div class="container">
+          <div class="row about-card">
+            <div class="col-md-4">
+              <div class="about-card__img">
+                <img src="img/bolotova.jpg" alt="Одесская школа НЛП Оксаны Болотовой">
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="about-card__sub-title">Об авторе</div>
+              <h2 class="about-card__title">Оксана Болотовапо</h2>
+              <p class="about-card__text">Восприятие, в первом приближении, выбирает автоматизм. Восприятие самопроизвольно. НЛП позволяет вам точно определить какие изменения в субьективном опыте надо произвести, чтобы стимул одинаково начинает аутизм, что отмечают такие крупнейшие ученые как Фрейд, Адлер, Юнг, Эриксон, Фромм. Предсознательное осознаёт коллективный закон. Сновидение зеркально дает групповой аутизм. </p>
+            </div>
+          </div>
+          <div class="row about-stat">
+            <div class="col-sm-4 col-lg-3">
+              <div class="about-stat__item">
+                <div class="about-stat__title"><span>21</span>год</div>
+                <div class="about-stat__caption"><span>опыта работы</span><span>в НЛП</span></div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="about-stat__item">
+                <div class="about-stat__title"><span>50</span></div>
+                <div class="about-stat__caption"><span>сертифицированных</span><span>тренингов</span></div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="about-stat__item">
+                <div class="about-stat__title"><span>30</span></div>
+                <div class="about-stat__caption"><span>авторских уникальных</span><span>методик</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-reviews">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title line-title">Отзывы учеников</h2>
+          </div>
+          <div class="reviews-carousel">
+            <div class="reviews-card">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="reviews-card__img-wrap">
+                    <div class="reviews-card__img">
+                      <img src="img/nadezshda.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="reviews-card__caption">
+                    <div class="reviews-card__titile">Надежда Иваненко, <span>@nadezhda.ivanenko84</span></div>
+                    <div class="reviews-card__sub-titile">Генеральный директор ООО «Чарка»</div>
+                    <div class="reviews-card__text">
+                      Качественная среда из людей, желающих расти, развиваться, думать, делать, слышать, слушать. Место, где голова соединяется с телом, и они живут в унисон. Интересно осознать: то, что ты делаешь по наитию, оказывается уже прописано, продумано, просчитано и сформулировано в науку. Новые рычаги и инструменты работы с головой и телом. Понимание того, что сверхспособности существуют! И их можно развивать, применять! Ну, и здесь начался новый виток в отношениях с мужем.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-card">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="reviews-card__img-wrap">
+                    <img class="reviews-card__img" src="img/nadezshda.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="reviews-card__caption">
+                    <div class="reviews-card__titile">Надежда Иваненко, <span>@nadezhda.ivanenko84</span></div>
+                    <div class="reviews-card__sub-titile">Генеральный директор ООО «Чарка»</div>
+                    <div class="reviews-card__text">
+                      Качественная среда из людей, желающих расти, развиваться, думать, делать, слышать, слушать. Место, где голова соединяется с телом, и они живут в унисон. Интересно осознать: то, что ты делаешь по наитию, оказывается уже прописано, продумано, просчитано и сформулировано в науку. Новые рычаги и инструменты работы с головой и телом. Понимание того, что сверхспособности существуют! И их можно развивать, применять! Ну, и здесь начался новый виток в отношениях с мужем.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-card">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="reviews-card__img-wrap">
+                    <div class="reviews-card__img">
+                      <img src="img/nadezshda.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="reviews-card__caption">
+                    <div class="reviews-card__titile">Надежда Иваненко, <span>@nadezhda.ivanenko84</span></div>
+                    <div class="reviews-card__sub-titile">Генеральный директор ООО «Чарка»</div>
+                    <div class="reviews-card__text">
+                      Качественная среда из людей, желающих расти, развиваться, думать, делать, слышать, слушать. Место, где голова соединяется с телом, и они живут в унисон. Интересно осознать: то, что ты делаешь по наитию, оказывается уже прописано, продумано, просчитано и сформулировано в науку. Новые рычаги и инструменты работы с головой и телом. Понимание того, что сверхспособности существуют! И их можно развивать, применять! Ну, и здесь начался новый виток в отношениях с мужем.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-card">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="reviews-card__img-wrap">
+                    <div class="reviews-card__img">
+                      <img src="img/nadezshda.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="reviews-card__caption">
+                    <div class="reviews-card__titile">Надежда Иваненко, <span>@nadezhda.ivanenko84</span></div>
+                    <div class="reviews-card__sub-titile">Генеральный директор ООО «Чарка»</div>
+                    <div class="reviews-card__text">
+                      Качественная среда из людей, желающих расти, развиваться, думать, делать, слышать, слушать. Место, где голова соединяется с телом, и они живут в унисон. Интересно осознать: то, что ты делаешь по наитию, оказывается уже прописано, продумано, просчитано и сформулировано в науку. Новые рычаги и инструменты работы с головой и телом. Понимание того, что сверхспособности существуют! И их можно развивать, применять! Ну, и здесь начался новый виток в отношениях с мужем.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cost">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title line-title">Стоимость тренинга</h2>
+          </div>
+          <div class="training-cost">
+            <div class="training-cost__caption">
+              Мы устанавливаем символическую цену на программу, хотя ценность тренинга неизмеримо больше. И делаем это с единственной целью — усилить вашу мотивацию к получению наилучших результатов
+            </div>
+            <div class="training-cost__value"><span>1500</span>грн.</div>
+            <div class="training-cost__action">
+              <a href="#" class="btn btn--main">Записаться сейчас</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+  <div class="footer__main">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-5">
+          <a href="#" class="footer__logo logo">
+            <img src="img/logo_footer.png" alt="НЛП Одесса">
+          </a>
+          <ul class="social footer__social">
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg width="7px" height="19px" class="icon social__icon">
+                  <use xlink:href="img/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <div class="social__item">
+              <a href="#" class="social__link">
+                <svg width="16px" height="16px" class="icon social__icon">
+                  <use xlink:href="img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="social__item">
+              <a href="#" class="social__link">
+                <svg width="18px" height="17px" class="icon social__icon">
+                  <use xlink:href="img/sprite.svg#viber"></use>
+                </svg>
+              </a>
+            </div>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block col-xl-4 col-lg-3">
+          <div class="footer__title">Информация</div>
+          <ul class="footer__nav">
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Галерея</a></li>
+            <li><a href="#">Визуализмы</a></li>
+            <li><a href="#">Что такое НЛП?</a></li>
+            <li><a href="#">Справочник НЛП (термины, люди, события)</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Договор оферты</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-4 col-lg-4">
+          <div class="footer__title">Контакты</div>
+          <div class="footer__contacts">
+            <p>Украина, г. Одесса, пер. Некрасова 5</p>
+            <p><a class="footer__phone" href="tel:380952074727">+38(095) 207-47-27</a></p>
+            <p><a class="footer__email" href="mailto:info@obolotova-nlpa.com.ua">info@obolotova-nlpa.com.ua</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__line">
+    <div class="container">
+      <p>© Copyright 2021, All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="modalCall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <form class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Запись на тренинг</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <svg width="14" height="14" class="icon">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Имя">
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" placeholder="Телефон">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="E-mail">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn w-100 btn--main">Записаться сейчас</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="modal modal--search fade" id="modalSearch" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-xl">
+    <form class="modal-content">
+      <div class="modal-header">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Что вы ищете?">
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <svg width="14" height="14" class="icon">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+  <aside class="js-offcanvas" data-offcanvas-options='{"modifiers":"right,overlay"}' id="right" role="complementary">
+  <button class="js-offcanvas-close" data-button-options='{"modifiers":"m1,m2"}'>
+    <svg width="25" height="25" class="icon m-menu__close-icon">
+      <use xlink:href="img/sprite.svg#close"></use>
+    </svg>
+  </button>
+  <ul class="m-menu">
+    <li class="m-menu__item">
+      <a href="index.html" class="m-menu__link">Об НЛП</a>
+    </li>
+    <li class="m-menu__item">
+      <a href="index.html" class="m-menu__link">Тренинги</a>
+    </li>
+    <li class="m-menu__item">
+      <a href="index.html" class="m-menu__link">Мероприятия</a>
+    </li>
+    <li class="m-menu__item">
+      <a href="index.html" class="m-menu__link">Работа с травмой</a>
+    </li>
+    <li class="m-menu__item">
+      <a href="index.html" class="m-menu__link">О нас</a>
+    </li>
+    <li class="m-menu__item">
+      <a href="index.html" class="m-menu__link">Журнал «Ресурс»</a>
+    </li>
+    <li class="m-menu__item">
+      <a href="index.html" class="m-menu__link">Информация</a>
+    </li>
+    <li class="m-menu__item">
+      <a href="index.html" class="m-menu__link">Магазин</a>
+    </li>
+  </ul>
+</aside>
+
+  <script src="js/vendor.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
